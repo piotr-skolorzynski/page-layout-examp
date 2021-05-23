@@ -163,6 +163,33 @@ body {
     padding-top: 10px;
 }
 
+/* section services */
+.section-services {
+    background-color: #70c0ff;
+}
+
+.section-services .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-services .section-services-buttons {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 100%;
+}
+
+.section-services .section-services-image-title {
+    color: #fff;
+    font-size: 70px;
+}
+
+.section-services .section-services-image img {
+    width: 350px;
+}
+
+
 .site-footer {
     background: #262626;
     color: white;
