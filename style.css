@@ -150,13 +150,17 @@ body {
 .section-about .section-about-title {
     margin: 0;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .section-about .section-about-text {
     margin: 0;
     font-size: 14px;
     line-height: 25px;
+}
+
+.section-about .section-about-text:last-child {
+    padding-top: 10px;
 }
 
 .site-footer {
