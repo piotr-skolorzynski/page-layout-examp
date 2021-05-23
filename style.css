@@ -176,18 +176,56 @@ body {
 }
 
 .section-services .section-services-buttons {
+    margin-left: 40px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 40%;
+    align-items: flex-end;
+    width: 43%;
 }
 
 .section-services .section-services-image {
     position: relative;
-    width: 60%;
+    width: 57%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-services .section-services-btn-conatainer {
+    margin: 8px 0;
+    background-color: #fff;
+    width: 300px;
+    display: flex;
+}
+
+.section-services .section-services-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.section-services .section-services-btn-conatainer:first-child {
+    box-shadow: 0 15px 20px 5px rgba(0, 0, 0, .2);
+}
+
+.section-services .section-services-btn-conatainer label {
+    padding: 20px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    width: 80%;
+    line-height: 32px;
+}
+
+.section-services .section-services-btn-conatainer .label--line-height {
+    line-height: 15px;
+}
+
+.section-services .fas {
+    padding: 20px 20px;
+    font-size: 30px;
+    border-left: 1px solid rgba(0, 0, 0, .25);
+    text-align: center;
 }
 
 .section-services .section-services-image-title {
@@ -195,6 +233,10 @@ body {
     color: #fff;
     font-size: 70px;
     text-align: center;
+}
+
+.section-services .section-services-image {
+    margin-left: 100px;
 }
 
 .section-services .section-services-image img {
