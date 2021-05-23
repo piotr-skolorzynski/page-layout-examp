@@ -169,24 +169,36 @@ body {
 }
 
 .section-services .container {
+    height: 700px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .section-services .section-services-buttons {
     display: flex;
-    flex-flow: column wrap;
-    flex-basis: 100%;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.section-services .section-services-image {
+    position: relative;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-services .section-services-image-title {
+    position: absolute;
     color: #fff;
     font-size: 70px;
+    text-align: center;
 }
 
 .section-services .section-services-image img {
-    width: 350px;
+    width: 400px;
 }
 
 
