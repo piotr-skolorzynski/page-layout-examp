@@ -243,6 +243,63 @@ body {
     width: 400px;
 }
 
+.section-subscribe {
+    background-color: #fff;
+    background-image: url('./images/background4.png');
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+}
+
+.section-subscribe .container {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-subscribe .section-subscribe-title {
+    margin: 0 0 20px;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.section-subscribe .section-subscribe-text {
+    margin-bottom: 20px;
+    width: 60%;
+    line-height: 1.5;
+}
+
+.section-subscribe .btns-container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-subscribe .section-subscribe-input {
+    padding: 15px 10px; 
+    width: 67%;
+    border-radius: 0;
+    border: 1px solid #000;
+}
+
+.section-subscribe .section-subscribe-input::placeholder {
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .3);
+}
+
+.section-subscribe .section-subscribe-btn {
+    margin: 0 auto;
+    padding: 15px 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: lighter;
+    background-color: #97ba2c;
+    border: 0;
+    box-shadow: 0 15px 20px 5px rgba(151, 186, 44, .3);
+}
+
 
 .site-footer {
     background: #262626;
