@@ -386,7 +386,34 @@ body {
     box-shadow: 0 15px 20px 5px rgba(151, 186, 44, .3);
 }
 
+/* section blog */
+.section-blog {
+    background-color: #b07cf8;
+}
 
+.section-blog .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-blog .section-blog-content {
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-basis: calc(30% - 20px);
+}
+
+.section-blog .section-blog-btn {
+    margin-top: 40px;
+    padding: 13px 30px;
+    color: #eee;
+    text-transform: uppercase;
+    background-color: #f82b3c;
+    border: 0;
+    box-shadow: 0 5px 10px 3px rgba(248, 43, 60, .3);
+}
+
+/* footer */
 .site-footer {
     background: #262626;
     color: white;
