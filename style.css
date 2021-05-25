@@ -198,12 +198,6 @@ body {
     display: flex;
 }
 
-.section-services .section-services-button {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-}
-
 .section-services .section-services-btn-conatainer:first-child {
     box-shadow: 0 15px 20px 5px rgba(0, 0, 0, .2);
 }
@@ -218,14 +212,35 @@ body {
 }
 
 .section-services .section-services-btn-conatainer .label--line-height {
-    line-height: 15px;
+    line-height: 20px;
 }
 
-.section-services .fas {
-    padding: 20px 20px;
-    font-size: 30px;
-    border-left: 1px solid rgba(0, 0, 0, .25);
-    text-align: center;
+.section-services .section-services-button {
+    margin: 0 auto;
+    padding: 20px 35px;
+    width: 20%;
+    background-color: transparent;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    border: 0;
+    border-left: 1px solid rgba(0, 0, 0, .4);
+}
+
+.section-services .section-services-btn1 {
+    background-image: url('./images/icon-cart.png');
+}
+
+.section-services .section-services-btn2 {
+    background-image: url('./images/icon-hand.png');
+}
+
+.section-services .section-services-btn3 {
+    background-image: url('./images/icon-world.png');
+}
+
+.section-services .section-services-btn4 {
+    background-image: url('./images/icon-carrot.png');
 }
 
 .section-services .section-services-image-title {
