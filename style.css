@@ -326,6 +326,7 @@ body {
     background-color: #5685a3;
     border: 0;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, .4);
+    cursor: pointer;
 }
 
 /* section subscribe */
@@ -384,6 +385,7 @@ body {
     background-color: #97ba2c;
     border: 0;
     box-shadow: 0 15px 20px 5px rgba(151, 186, 44, .3);
+    cursor: pointer;
 }
 
 /* section blog */
@@ -467,6 +469,7 @@ body {
     background-color: #f82b3c;
     border: 0;
     box-shadow: 0 5px 10px 3px rgba(248, 43, 60, .3);
+    cursor: pointer;
 }
 
 /* section contact */
@@ -512,11 +515,52 @@ body {
 
 .section-contact .form-input {
     margin: 10px 0;
-    width: 100%;
+    padding: 12px;
+    width: 92.3%;
+    background-color: rgba(114, 211, 212, .75);
+    border: 0;
+    border-left: 4px solid rgba(114, 211, 212, .75);
+}
+
+.section-contact .form-input::placeholder {
+    font-family: Raleway, sans-serif;    
+    color: #fff;
+    font-size: 13px;
+}
+
+.section-contact .form-input:first-child {
+    background-color: rgb(114, 211, 212);
+    border-left: 4px solid rgb(70, 126, 172);
+}
+
+.section-contact .form-input:first-child::placeholder {
+    font-weight: bold;
+}
+
+.section-contact textarea {   
+    margin: 10px 0;
+    padding: 12px;
+    border: 0;
+    resize: none;
+    background-color: rgba(114, 211, 212, .7);
+}
+
+.section-contact textarea::placeholder {
+    font-family: Raleway,
+    sans-serif;
+    color: #fff;
+    font-size: 13px;
 }
 
 .section-contact .form-btn {
-    margin: 10px 0;
+    margin: 10px 0 20px;
+    padding: 10px 50px;
+    color: #eee;
+    text-transform: uppercase;
+    background-color: rgb(52, 119, 172);
+    border: 0;
+    box-shadow: 0 0 10px 5px rgba(52, 119, 172, .2);
+    cursor: pointer;
 }
 
 .section-contact .contact-title {
